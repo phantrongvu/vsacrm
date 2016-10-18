@@ -1,0 +1,25 @@
+.summary li{
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.summary li strong {
+  float: right;
+}
+
+.summary li.custom-products {
+  padding: 10px 5px;
+  background: #efefef;
+}
+
+.summary li.extra-items {
+  padding: 10px 5px;
+  background: #eaeaea;
+}
+
+.summary li.grand-total {
+  padding: 10px 5px;
+  border-top: 1px solid #000;
+  background: #d9d9d9;
+}

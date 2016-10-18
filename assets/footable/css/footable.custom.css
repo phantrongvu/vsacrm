@@ -1,0 +1,35 @@
+.footable
+{
+	border: 2px solid #52b9e9;	
+}
+.footable table, .footable thead, .footable tbody, .footable th, .footable tr, .footable td
+{
+	border-radius: 0 !important;
+}
+.footable .btn
+{
+	float: left;
+	margin: 4px;	
+}
+@media (max-width: 320px)		
+{
+	.footable > tbody > tr > td
+	{
+		overflow: auto;
+		/* text-overflow: ellipsis; */
+		white-space: nowrap;
+		/* word-wrap: normal; */
+		max-width: 200px;
+	}
+}
+@media (max-width: 240px)	
+{
+	.footable > tbody > tr > td
+	{
+		overflow: auto;
+		/* text-overflow: ellipsis; */
+		white-space: nowrap;
+		/* word-wrap: normal; */
+		max-width: 120px;
+	}	
+}

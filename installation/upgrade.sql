@@ -1,0 +1,1 @@
+ALTER TABLE `products` ADD `recurring` TINYINT( 1 ) UNSIGNED NOT NULL DEFAULT '1';
